@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>To-Do List</title>
+        <script src="external.js"></script>
+    </head>
+    <body>
+        <font face="courier">
+            <center><h1><b><u>To-Do List</u></b></h1></center>
+	    <hr>
+            <label>New Item:</label>
+            <input type ="text" size="50" placeholder="Enter new to-do here..." id="new"> <button id="add" onClick="addlistitem()">+</button>
+            <br><br>
+            <font color="red"><b>Red means incomplete</b></font>
+            <br>
+            <font color="green"><b>Green means complete</b></font>
+            <br>
+            Click on the respective item to change status
+            <br>
+            Click on 'X' to remove item
+            <br>
+	    <hr>
+            <center><table width="80%" cellpadding="10" id="table">
+            </table></center>
+        </font>
+    </body>
+</html>
