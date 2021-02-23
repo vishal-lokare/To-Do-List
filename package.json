@@ -1,8 +1,15 @@
 {
-  "dev": "nuxt",
-  "build": "nuxt build",
-  "start": "nuxt start",
-  "generate": "nuxt generate",
-  "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-  "heroku-postbuild": "npm run build"
+  "name": "node-example",
+  "version": "1.0.0",
+  "description": "This example is so cool.",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "jane-doe",
+  "license": "MIT"
 }
